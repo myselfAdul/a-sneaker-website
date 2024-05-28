@@ -1,0 +1,30 @@
+/* Company.scss */
+
+.company-details {
+  // max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.details {
+  width: 600px;
+  margin-top: 20px;
+  background-color: #eabe57ab;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+p {
+  margin: 8px 0;
+}
+
+strong {
+  font-weight: bold;
+}

@@ -1,0 +1,96 @@
+.contact_form {
+    font-family: Poopins;
+    height: 90vh;
+    color: #252525;
+    
+    margin-left: 500px;
+    margin: auto;
+    background-image: linear-gradient(50deg, #15172a 52%, rgb(255, 0, 89));
+
+
+    margin-top: -9px;
+    
+    section {
+        padding: 20px;
+    }
+
+    .head{
+        color: orange;
+        font-size: 24px;
+        font-weight: 600;
+    }
+
+    hr{
+        width: 40%;
+        height: 3px;
+        margin-left: 500px;
+        background-color: white;
+    }
+    
+    div {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        margin-left: 500px;
+        margin-top: 10px;
+      
+
+        label {
+            // color: #252525;
+            color: white;
+            font-size: 2.2rem;
+            font-weight: 700;
+            padding: 10px;
+            border-radius: 0.2rem;
+            // color: antiquewhite;
+            // font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        input {
+            min-width: 30rem;
+            max-width: 10rem;
+            min-height: 3rem;
+            border-radius: 5px;
+            border-style: none;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.424);
+            color: antiquewhite;
+            font-size: larger;
+            border: 1px solid rgba(128, 128, 128, 0.306);
+        }
+
+        textarea {
+            resize: none;
+            min-width: 30rem;
+            max-width: 800px;
+            min-height: 10rem;
+            border-radius: 5px;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.424);
+            // color: #252525;
+            color: antiquewhite;
+            font-size: 20px;
+        }
+    }
+
+    button {
+        max-width: 7rem;
+        background-color: orangered;
+        font-size: larger;
+        color: antiquewhite;
+        padding: 10px;
+        cursor: pointer;
+        border: none;
+        // font-family: Georgia, 'Times New Roman', Times, serif;
+        font-weight: bolder;
+        margin-top: 20px;
+        border-radius: 2px;
+    }
+
+    button:active {
+        background-color: grey;
+        // color: black;
+    }
+
+}
+

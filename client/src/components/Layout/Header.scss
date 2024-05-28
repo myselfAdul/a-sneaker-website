@@ -1,0 +1,121 @@
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 1.5px 10px -2px rgb(20, 26, 48);
+    padding: 20px;
+    
+
+    a{
+        text-decoration: none;
+    }
+
+    .nav-logo{
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        p{
+            color: black;
+            font-size: 40px;
+            font-weight: 600;
+
+            background-image: url(
+            "https://www.residencestyle.com/wp-content/uploads/2020/11/abstract-painting1.jpg");
+
+            background-repeat: repeat;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+            font-family: 'Steelfish Rg', 'helvetica neue', 
+                            helvetica, arial, sans-serif;
+            text-transform: uppercase;
+            
+            -webkit-font-smoothing: antialiased;
+            
+        }   
+    }
+
+    .nav-menu{
+        display: flex;
+        align-items: center;
+        list-style: none;
+        gap: 2rem;
+        font-size: 22px;
+        font-weight: 500;
+        // text-decoration: none;
+
+        li{
+            
+            display: flex;
+            color: rgb(84, 83, 83);
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            padding: 4px;
+            
+
+            &:hover{
+                hr{
+                    border: none;
+                    width: 80%;
+                    height: 3px;
+                    border-radius: 10px;
+                    background-color: orangered;
+                    opacity: 1;
+                    transition: background-color 0.3s ease;        
+                }
+            }
+
+            a{
+                text-decoration: none;
+                color: inherit;
+            }
+            
+            
+        }      
+    }
+         
+    .nav-login-cart{
+        display: flex;
+        align-items: center;
+        gap: 40px;
+
+        button{
+            cursor: pointer;
+            padding: 5px;
+            border: 1px solid grey;
+            border-radius: 4px;
+            background-color: white;
+            font-size: 25px;
+            font-weight: 500;
+            padding-left: 0.8rem;
+            padding-right: 0.8rem;
+            
+            &:active{
+                background-color: orangered;
+                color: white;            
+                           
+            }
+        }
+
+        img{
+            cursor: pointer;
+        }
+
+        .cart-count{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 22px;
+            height: 22px;
+            margin-bottom: 35px;
+            margin-left: -50px;
+            background-color: red;
+            color: white;
+            border-radius: 50%;
+        }
+    }
+}
+
+

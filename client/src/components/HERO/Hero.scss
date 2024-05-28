@@ -1,0 +1,388 @@
+.hero{
+
+    margin-top: 20px;
+    height: 85vh;
+    min-width: 100%;
+    
+    display: flex;
+    justify-content: space-evenly;
+    font-family: Poppins;
+    margin-left: -50px;
+    
+    .hero-left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 20px;
+        line-height: 1.1;
+        padding-left: 80px;
+        background: linear-gradient(to left,white, #fdd9cf );
+        // background: linear-gradient(to left,white, #612826 );
+        h2{
+            color: #252525d8;
+            font-size: 28px;
+            font-weight: 600;
+        }
+
+        p{
+            font-size: 80px;
+            font-weight: 700;
+        }
+
+        .latest-btn{
+            margin-top: 20px;
+
+            a{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 15px;
+                font-size: 22px;
+                font-weight: 500;
+                text-decoration: none;
+                color: white;
+                background-color: orangered;
+                width: 300px;
+                height: 70px;
+                border-radius: 75px;
+
+                
+            }            
+        }
+    }
+}
+
+.new-logo{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    img{
+        width: 100px;
+    }
+}
+
+.hero-rotate {
+    flex: 1;
+    background-image: url('../360/f1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 200px;
+    transition: background-image 0.3s ease;
+}
+
+.hero-rotate:hover {
+    animation: rotate 10s linear infinite;
+}
+
+.hero-rotate.paused {
+    animation-play-state: paused;
+}
+
+@keyframes rotate{
+    0% {
+        background-image: url('../360/f2.png');
+    }
+    1% {
+        background-image: url('../360/f3.png');
+    }
+    2% {
+        background-image: url('../360/f4.png');
+    }
+    3% {
+        background-image: url('../360/f5.png');
+    }
+    4% {
+        background-image: url('../360/f6.png');
+    }
+    5% {
+        background-image: url('../360/f7.png');
+    }
+    6% {
+        background-image: url('../360/f8.png');
+    }
+    7% {
+        background-image: url('../360/f9.png');
+    }
+    8% {
+        background-image: url('../360/f10.png');
+    }
+    9% {
+        background-image: url('../360/f11.png');
+    }
+    10% {
+        background-image: url('../360/f12.png');
+    }
+    11% {
+        background-image: url('../360/f13.png');
+    }
+    12% {
+        background-image: url('../360/f14.png');
+    }
+    13% {
+        background-image: url('../360/f15.png');
+    }
+    14% {
+        background-image: url('../360/f16.png');
+    }
+    15% {
+        background-image: url('../360/f17.png');
+    }
+    16% {
+        background-image: url('../360/f18.png');
+    }
+    17% {
+        background-image: url('../360/f19.png');
+    }
+    18% {
+        background-image: url('../360/f20.png');
+    }
+    19% {
+        background-image: url('../360/f21.png');
+    }
+    20% {
+        background-image: url('../360/f22.png');
+    }
+    21% {
+        background-image: url('../360/f23.png');
+    }
+    22% {
+        background-image: url('../360/f24.png');
+    }
+    23% {
+        background-image: url('../360/f25.png');
+    }
+    24% {
+        background-image: url('../360/f26.png');
+    }
+    25% {
+        background-image: url('../360/f27.png');
+    }
+    26% {
+        background-image: url('../360/f28.png');
+    }
+    27% {
+        background-image: url('../360/f29.png');
+    }
+    28% {
+        background-image: url('../360/f30.png');
+    }
+    29% {
+        background-image: url('../360/f31.png');
+    }
+    30% {
+        background-image: url('../360/f32.png');
+    }
+    31% {
+        background-image: url('../360/f33.png');
+    }
+    32% {
+        background-image: url('../360/f34.png');
+    }
+    33% {
+        background-image: url('../360/f35.png');
+    }
+    34% {
+        background-image: url('../360/f36.png');
+    }
+    
+    35% {
+        background-image: url('../360/f2.png');
+    }
+    36% {
+        background-image: url('../360/f2.png');
+    }
+    37% {
+        background-image: url('../360/f3.png');
+    }
+    38% {
+        background-image: url('../360/f4.png');
+    }
+    39% {
+        background-image: url('../360/f5.png');
+    }
+    40% {
+        background-image: url('../360/f6.png');
+    }
+    41% {
+        background-image: url('../360/f7.png');
+    }
+    42% {
+        background-image: url('../360/f8.png');
+    }
+    43% {
+        background-image: url('../360/f9.png');
+    }
+    44% {
+        background-image: url('../360/f10.png');
+    }
+    45% {
+        background-image: url('../360/f11.png');
+    }
+    46% {
+        background-image: url('../360/f12.png');
+    }
+    47% {
+        background-image: url('../360/f13.png');
+    }
+    48% {
+        background-image: url('../360/f14.png');
+    }
+    49% {
+        background-image: url('../360/f15.png');
+    }
+    50% {
+        background-image: url('../360/f16.png');
+    }
+    51% {
+        background-image: url('../360/f17.png');
+    }
+    52% {
+        background-image: url('../360/f18.png');
+    }
+    53% {
+        background-image: url('../360/f19.png');
+    }
+    54% {
+        background-image: url('../360/f20.png');
+    }
+    55% {
+        background-image: url('../360/f21.png');
+    }
+    56% {
+        background-image: url('../360/f22.png');
+    }
+    57% {
+        background-image: url('../360/f23.png');
+    }
+    58% {
+        background-image: url('../360/f24.png');
+    }
+    59% {
+        background-image: url('../360/f25.png');
+    }
+    60% {
+        background-image: url('../360/f26.png');
+    }
+    61% {
+        background-image: url('../360/f27.png');
+    }
+    62% {
+        background-image: url('../360/f28.png');
+    }
+    63% {
+        background-image: url('../360/f29.png');
+    }
+    64% {
+        background-image: url('../360/f30.png');
+    }
+    65% {
+        background-image: url('../360/f31.png');
+    }
+    66% {
+        background-image: url('../360/f32.png');
+    }
+    67% {
+        background-image: url('../360/f33.png');
+    }
+    68% {
+        background-image: url('../360/f34.png');
+    }
+    69% {
+        background-image: url('../360/f35.png');
+    }
+    70% {
+        background-image: url('../360/f36.png');
+    }
+    71% {
+        background-image: url('../360/f1.png');
+    }
+    72% {
+        background-image: url('../360/f2.png');
+    }
+    73% {
+        background-image: url('../360/f3.png');
+    }
+    74% {
+        background-image: url('../360/f4.png');
+    }
+    75% {
+        background-image: url('../360/f5.png');
+    }
+    76% {
+        background-image: url('../360/f6.png');
+    }
+    77% {
+        background-image: url('../360/f7.png');
+    }
+    78% {
+        background-image: url('../360/f8.png');
+    }
+    79% {
+        background-image: url('../360/f9.png');
+    }
+    80% {
+        background-image: url('../360/f10.png');
+    }
+    81% {
+        background-image: url('../360/f11.png');
+    }
+    82% {
+        background-image: url('../360/f12.png');
+    }
+    83% {
+        background-image: url('../360/f13.png');
+    }
+    84% {
+        background-image: url('../360/f14.png');
+    }
+    85% {
+        background-image: url('../360/f15.png');
+    }
+    86% {
+        background-image: url('../360/f16.png');
+    }
+    87% {
+        background-image: url('../360/f17.png');
+    }
+    88% {
+        background-image: url('../360/f18.png');
+    }
+    89% {
+        background-image: url('../360/f19.png');
+    }
+    90% {
+        background-image: url('../360/f20.png');
+    }
+    91% {
+        background-image: url('../360/f21.png');
+    }
+    92% {
+        background-image: url('../360/f22.png');
+    }
+    93% {
+        background-image: url('../360/f23.png');
+    }
+    94% {
+        background-image: url('../360/f24.png');
+    }
+    95% {
+        background-image: url('../360/f25.png');
+    }
+    96% {
+        background-image: url('../360/f26.png');
+    }
+    97% {
+        background-image: url('../360/f27.png');
+    }
+    98% {
+        background-image: url('../360/f28.png');
+    }
+    99% {
+        background-image: url('../360/f29.png');
+    }
+    100% {
+        background-image: url('../360/f1.png');
+    }
+
+}

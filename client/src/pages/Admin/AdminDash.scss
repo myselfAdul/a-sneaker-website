@@ -1,0 +1,62 @@
+.admin-dashboard{
+    
+    h4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+        font-size: 44px;
+
+        hr{
+            background-color: orangered;
+            height: 6px;  
+            width: 30%;
+            display: flex;
+            // border-radius: 100%;
+        }
+    }
+    
+}
+
+.dash-card{
+    // display: flex;
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px 100px;
+    color: white;
+    
+    .menu{
+        flex: 1;
+    }
+
+    .right{
+        border-radius: 20px;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // background-image: linear-gradient(to left, rgba(39, 165, 243, 0.569), white);
+        background-image: linear-gradient(200deg, #15172a 52%, rgb(255, 0, 89));
+
+        
+        .admin-desc{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px 0px;
+            height: 300px;
+            
+            h2{
+                color: rgb(245, 245, 245);
+            }
+
+        }
+
+    }
+
+    
+}

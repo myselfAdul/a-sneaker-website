@@ -1,0 +1,78 @@
+.register{
+    background-image: linear-gradient(50deg, #15172a 45%, #15172a 55%, rgb(255, 0, 89));
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // height: 80vh;
+        margin-bottom: 50px;
+        .register-form{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            background-color: rgba(255, 255, 255, 0.333);
+            padding-bottom: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            h4{
+               
+                font-size: 40px;
+                margin-top: 20px;
+            }
+            hr{
+                height: 3px;
+                background-color: rgb(31, 30, 66);
+                width: 60%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-bottom: 20px;
+                border: none;
+            }
+    
+            .form-input{
+                // margin-bottom:10px;
+                margin: 0px 40px;
+                input{
+                    font-size: 22px;
+                    height: 50px;
+                    width: 600px;
+                    padding: 10px;
+                    border: 1px solid rgb(185, 185, 185);
+                    color: #252525;
+                    outline: none;
+                    border-radius: 5px;
+    
+                }
+            }
+
+            button{
+                width: 200px;
+                height: 50px;
+                font-size: 22px;
+                font-weight: 600;
+                margin-left: -400px;
+                margin-top: 20px;
+                
+                color: white;
+                background: orangered;
+                cursor: pointer;
+                border: none;
+    
+                &:active{
+                    background-color: grey;
+                }
+            }
+    
+        } 
+    
+    }
+}

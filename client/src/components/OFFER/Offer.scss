@@ -1,0 +1,70 @@
+.offers{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top,white, rgba(111, 108, 115, 0.661) 70%);
+
+    margin-bottom: 40px;
+    // margin-top: 200px;
+
+    .offers-left{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        padding-left: 100px;
+
+        h2{
+            font-size: 57px;
+            font-weight: 600;
+            color: #171717;
+        }
+        p{
+            margin-top: 20px;
+            color: #171717;
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+        button{
+            width: 280px;
+            font-size: 22px;
+            padding: 20px;
+            margin-top: 40px;
+            background-color: orangered;
+            color: white;
+            border-radius: 40px;
+            border: none;
+            // border: none;
+            cursor: pointer;
+        }
+    }
+
+    .offers-right{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            transform: rotate(0deg);
+            transition: transform 1.1s ease;
+
+            &:hover{
+                transform: rotate(20deg);
+            }
+        }
+    }  
+}
+
+
+
+
+
+
+
+

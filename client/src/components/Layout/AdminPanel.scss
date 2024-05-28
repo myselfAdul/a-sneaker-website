@@ -1,0 +1,44 @@
+.admin-panel{
+    font-size: 22px;
+    margin: 20px 100px;
+
+    .crud-list{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+ 
+        h4{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
+            font-size: 44px;
+
+            hr{
+                background-color: orangered;
+                height: 6px;  
+                width: 30%;
+                display: flex;
+                // border-radius: 100%;
+            }
+        }
+
+        a{
+            text-decoration: none;
+            color:white;
+            // color: #252525;
+            background-color: orangered;
+            width: 250px;
+            font-weight: 600;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+
+            &:hover{
+                transform: scale(1.02);
+            }
+        }
+    }
+}
